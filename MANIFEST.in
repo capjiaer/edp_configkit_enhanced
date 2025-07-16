@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pytest.ini
+include MANIFEST.in
+recursive-include configkit *.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include docs *.md *.rst *.txt
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.so
+global-exclude .git* 

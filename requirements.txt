@@ -1,0 +1,7 @@
+# Core dependencies
+PyYAML>=5.4.1
+
+# Optional dependencies for enhanced features
+# tkinter is usually included with Python standard library
+# If you need to install it separately on some systems:
+# python-tk>=3.6 
